@@ -18,6 +18,7 @@ Available on [sndr.club](https://sndr.club)
   - **[Graphql-codegen](https://github.com/dotansimha/graphql-code-generator/)** (Code generation from graphql schema)
   - **[Peerjs-client](https://github.com/peers/peerjs)** (WebRTC client)
   - **[Dexie.js](https://github.com/dfahlander/Dexie.js)** (Minimalistic IndexedDB wrapper)
+  - **[Rambda](https://github.com/selfrefactor/rambda)** (Blazing fast functional library)
   
 - Authentication 🔒
   - **[Google OpenID](https://developers.google.com/identity/protocols/oauth2)** ([Code flow](https://openid.net/connect/) with Google OpenID specification with httpOnly cookies as transport)
@@ -25,11 +26,13 @@ Available on [sndr.club](https://sndr.club)
 
 ## Build Backend
 
+- go to `./sndr-server`
 - create your own `.env` file from `.env.example`
 - connect your own or start predefined `peerjs-server` and `postgres` with `docker-compose up`
 - to start the server run `yarn start`
 
 ## Build Frontend
 
+- go to `./sndr-client`
 - create your own `.env` file from `.env.example`
 - to start the server run `yarn build` and `yarn start`
