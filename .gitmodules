@@ -1,0 +1,6 @@
+[submodule "sndr-server"]
+	path = sndr-server
+	url = https://github.com/Houstoten/sndr-server.git
+[submodule "sndr-client"]
+	path = sndr-client
+	url = https://github.com/Houstoten/sndr-client.git
